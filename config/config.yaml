@@ -1,0 +1,29 @@
+# general
+seed: 42
+workers: 8
+dataset_dir: "/home/derek/datasets"
+
+# train options
+batch_size: 96
+image_size: 224
+start_epoch: 0
+epochs: 1050
+
+dataset: "RSOD" # UC-Merced-Land-Use/ RSOD/ SIRI-WHU/ Chaoyang /  D0-40 / AID
+
+# model options
+feature_dim: 128
+model_path: "save/RSOD-pretrain200-boost50-bs96"
+reload: False
+
+# loss options
+learning_rate: 0.0001
+weight_decay: 0.0
+instance_temperature: 0.5
+cluster_temperature: 1.0
+
+# wandb
+wandb: False
+project_name: 'PICI'
+entity: 'reganzhang'
+name: 'RSOD'
