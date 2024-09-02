@@ -2,7 +2,10 @@
 Official Implementation of the paper: Learning Clustering-Friendly Representations via Partial Information Discrimination and Cross-Level Interaction 
 # News
 Congratulations! Our paper was officially accepted by the journal **Neural Network (CCF B, IF=7.9)**
+
+# Proposed Framework
 ![](asset/PICI.png)
+An overview of our PICI framework, which encompasses three partial information learning modules, namely, (a) the PISD module, which enforces the partial information self-discrimination upon the masked images via a Transformer auto-encoder, (b) the PICD module, which takes the class tokens [CLS] as input and performs two levels of contrastive learning, and (c) the CLI module, which enables the mutual interaction between the instance- and cluster-level subspaces by constraining their cross-level consistency.
 ## Usage
 ### Configuration
 There is a configuration file "config/config.yaml", which can be edited for both the training and test options.
