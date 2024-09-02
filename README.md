@@ -1,7 +1,7 @@
 # PICI
 Official Implementation of the paper: Learning Clustering-Friendly Representations via Partial Information Discrimination and Cross-Level Interaction.
 # News
-**Congratulations!!!** Our paper was officially accepted by the journal **Neural Network (CCF B, IF=7.9)**
+**Congratulations!!!** Our paper was officially accepted by the journal **Neural Network (CCF B)**
 
 # Proposed Framework
 ![](asset/PICI.png)
